@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n,i;
+/*	int n,i;
 	cin>>n;
 	int arr[n];
 	for( i=0;i<n;i++)
@@ -12,6 +12,17 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		cout<<arr[i];
+	}*/
+	int n,i;
+	cin>>n;
+	int arr[n];
+	int sum=0;
+	for(i=0;i<n;i++)
+	{
+		cin>>arr[i];
 	}
+	for(i=0;i<n;i++)
+	sum=arr[i]+sum;
+	cout<<sum;
 	return 0;
 }
